@@ -14,3 +14,25 @@ CARA CLONE SOURCE CODE
         }
 11. Jika Sudah di deploy/menggunakan ngrok aktifkan code di atas
 Tujuannya supaya ketika menjalankan payment gatwey midtrans work
+
+#Tambahkan Code Berikut di bagian .env
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=tokomalhest@gmail.com
+MAIL_PASSWORD=qgqhyiplbgeasrrk
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="tokomalhest@gmail.com"
+MAIL_FROM_NAME="ecommerce"
+
+
+
+MIDTRANS_SERVER_KEY= < key midtrans >
+MIDTRANS_CLIENT_KEY= < key client midtrans >
+MIDTRANS_IS_PRODUCTION=false
+MIDTRANS_IS_SANITIZED=true
+MIDTRANS_IS_3DS=true
+
+
+
