@@ -37,8 +37,8 @@ class AppServiceProvider extends ServiceProvider
             return "<?php echo number_format($expression, 2, ',', '.') . ' g'; ?>";
         });
 
-        if (config('app.env') === 'local') {
-            URL::forceScheme('https');
-        }
+        // if (config('app.env') === 'local') {
+        //     URL::forceScheme('https');
+        // }
     }
 }
